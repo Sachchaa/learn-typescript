@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Container, Heading, HeadingWithContent, List, TextWithNumber } from './components';
-import UseStateHook from './UseStateHook.';
+import UseEffectHook from './UseEffectHook';
+import UseStateHook from './UseStateHook';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       ></List>
       <h2>Use State Hook</h2>
       <UseStateHook />
+
+      <h2>Use Effect Hook</h2>
+      <UseEffectHook />
     </div>
   );
 }
