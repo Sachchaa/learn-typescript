@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Container, Heading, HeadingWithContent, List, TextWithNumber } from './components';
+import UseContextHook from './UseContextHook';
 import UseEffectHook from './UseEffectHook';
 import UseStateHook from './UseStateHook';
 
@@ -22,6 +23,9 @@ function App() {
 
       <h2>Use Effect Hook</h2>
       <UseEffectHook />
+
+      <h2>Use Context Hook</h2>
+      <UseContextHook />
     </div>
   );
 }
